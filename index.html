@@ -3,13 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Axion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<header class="header">
 		<div class="header__left-side">	
-			<img src="images/Axion-logo-1.png" alt="Logo Axis">
+			<img class="header__logo" src="images/Axion-logo-1.png" alt="Logo Axis">
+			<img class="header__logo-mobile" src="images/logo-mobile.png" alt="Logo Axis Mobile">
 			<nav class="header-nav">
 				<a class="header-nav__link" href="#">SHOP</a>
 				<a class="header-nav__link" href="#">NEWS</a>
@@ -20,64 +24,89 @@
 		</div>
 		<div class="header__right-side">
 			<form class="search-box">
-				<p><input class="search-box__line" type="search" name="q">
+				<p class="search-box__input"><input class="search-box__line" type="search" name="q">
 					<input class="search-box__icon" type="image" src="images/Vector.png"></p>
 			</form>
-			<form class="sign-in">
-				<input class="sign-in__submit" type="submit" value="SIGN IN">
-			</form>
-			//Позже разберусь с этими блоками, во время стилизации
-			<button class="cart" href="#">CART</button>
-			<div class="cart-id"></div>
-			<div class="lang-id"></div>
-			//
-		</div>			
+			<a class="sign-in" href="#">SIGN IN</a>
+			<a class="cart-id" href="#">CART
+				<span class="cart-id__number">1</span>
+			</a>
+            <button class="lang">
+            	<img src="images/lang.png" alt="lang">
+            </button>
+		</div>
+		<div class="menu-burger">
+        		<div class="menu-burger__item" href="/"></div>
+        		<div class="menu-burger__item" href="/"></div>
+    		</div>			
 	</header>
 	<section class="presentation">
 		<div class="presentation__box">
 			<h1 class="presentation__title">LEGENDARY FOOTWEAR REBORN</h1>
-			<a class="presentation__link" href="#">SHOW NOW<img class="presentation__img"></a>	
+			<a class="presentation__link" href="#">SHOP NOW<img class="presentation__img" src="images/arrow-link-white.png"></a>	
 		</div>
 	</section>
 	<main class="main-content">
 		<h2 class="main-content__title">FEATURED PRODUCT</h2>
 		<div class="main-content__product">
-			<div class="product">
-				<img class="product__img" src="images/" alt="boots">
+			<div class="product product-one">
+				<img class="product__img" src="images/product-1.png" alt="boots">
 				<a class="product__link">Atlas Black/Rasta Axion</a>
 				<div class="product__cost-color">
 					<span class="prod-cost">$89.00</span>
 					<div class="prod-color">
-					
+						<button class="prod-color__item color-grey"></button>
+                        <button class="prod-color__item color-black"></button>
+                        <button class="prod-color__item color-red"></button>
+                        <button class="prod-color__item color-yellow"></button>
 					</div>	
+				</div>
 			</div>
-			<div class="product">
-				<img class="product__img" src="images/" alt="boots">
+			<div class="product__separation">
+			</div>	
+			<div class="product product-two">
+				<img class="product__img" src="images/product-2.png" alt="boots">
 				<a class="product__link">Atlas Black/Rasta Axion</a>
 				<div class="product__cost-color">
 					<span class="prod-cost">$89.00</span>
 					<div class="prod-color">
-						
+						<button class="prod-color__item color-grey"></button>
+                        <button class="prod-color__item color-brown"></button>
+                        <button class="prod-color__item color-red"></button>
+                        <button class="prod-color__item color-yellow"></button>
 					</div>	
+				</div>
 			</div>
-			<div class="product">
-				<img class="product__img" src="images/" alt="boots">
+			<div class="product__separation">
+			</div>	
+			<div class="product product-three">
+				<img class="product__img" src="images/product-3.png" alt="boots">
 				<a class="product__link">Atlas Black/Rasta Axion</a>
 				<div class="product__cost-color">
 					<span class="prod-cost">$89.00</span>
 					<div class="prod-color">
-						
+						<button class="prod-color__item color-grey"></button>
+                        <button class="prod-color__item color-bordo"></button>
+                        <button class="prod-color__item color-blue"></button>
+                        <button class="prod-color__item color-yellow"></button>
 					</div>	
+				</div>
 			</div>
-			<div class="product">
-				<img class="product__img" src="images/" alt="boots">
+			<div class="product__separation">
+			</div>	
+			<div class="product product-four">
+				<img class="product__img" src="images/product-4.png" alt="boots">
 				<a class="product__link">Atlas Black/Rasta Axion</a>
 				<div class="product__cost-color">
 					<span class="prod-cost">$89.00</span>
 					<div class="prod-color">
-						
+						<button class="prod-color__item color-grey"></button>
+                        <button class="prod-color__item color-laguna"></button>
+                        <button class="prod-color__item color-red"></button>
+                        <button class="prod-color__item color-yellow"></button>
 					</div>	
-			</div>
+				</div>
+			</div>	
 		</div>
 		<section class="box">
 			<div class="box__video">

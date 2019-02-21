@@ -1,0 +1,260 @@
+body{
+    font-family: 'Gotham Pro';
+    color: #000000;
+    line-height: normal;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+button{
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__left-side{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logo-mobile {
+    max-width: 156px;
+}
+.header-nav__link {
+    color: #000000;
+    font-size: 12px;
+    margin-left: 1.7em;
+    font-weight: bolder;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__right-side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-burger__item {
+    display: inline-block;
+    width: 60px;
+    height: 9px;
+    background: #000000;
+    margin: 0.3em;
+}
+
+.search-box {
+    display: inline-block;
+    border-bottom: 1px solid;
+    max-height: 33px;
+    margin-bottom: 0.4em;
+}
+
+.search-box input {
+    all: unset;
+}
+
+.search-box__icon {
+    max-height: 14px;
+    max-width: 14px;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 1.7em;
+}
+
+.cart-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 1.7em;
+}
+
+.cart-id__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    width: 15px;
+    height: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0.3em;
+    text-align: center;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.7em;
+}
+
+.presentation {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 1.3em;
+    background-image: url("../images/bg-intro.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentation__box {
+    max-width: 10em;
+    max-height: 80%;
+    margin: 3em;
+}
+
+.presentation__title {
+    font-size: 1.8em;
+}
+
+.presentation__link {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.presentation__img {
+    margin-left:0.7em;
+}
+
+.main-content__product {
+    max-width: 1170px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content__title {
+    text-align: center;
+    margin: 2em auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    list-style: none;
+}
+
+.product__separation {
+    height: 100px;
+    width: 1px;
+    opacity: 0.2;
+    background-color: black;
+    margin-top: 2em;
+}
+
+.product__img {
+    max-width: 187px;
+}
+
+.prod-cost {
+    font-weight: bold;
+}
+
+.product__cost-color {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prod-color__item{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 0.7em;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.prod-color__item:hover {
+    width: 9px;
+    height: 9px;
+}
+
+.color-grey {
+    background-color: #C4C4C4;
+}
+
+.color-black {
+    background-color: #0E1211;
+}
+
+.color-red {
+    background-color: #B62E3C;
+}
+
+.color-yellow {
+    background-color: #FDB431;
+}
+
+.color-brown {
+    background-color: #E29D69;
+}
+
+.color-bordo {
+    background-color: #762E31;
+}
+
+.color-blue {
+    background-color: #41479B;
+}
+
+.color-laguna {
+    background-color: #257DA9;
+}
+
+.main-content {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
