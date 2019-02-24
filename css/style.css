@@ -295,12 +295,24 @@ button{
     font-size: 14px;
 }
 
-video {
-    margin: 3em 2em 3em 2em;
-    height: 345px;
-    width: 628px;
-    border: 5px solid grey;
+.box__video {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 30.25%;
+    position: relative;
+    max-width: 800px;
+    width: 250%;
+    border: 8px solid grey;
+    margin: 3em 3em 3em 3em;
 }
+.box__video iframe {
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
 
 .box-description__link {
     font-weight: bold;
@@ -380,6 +392,7 @@ video {
 .image-production__title {
     color: grey;
     text-align: right;
+    margin-right: 1.5em;
 }
 
 .image-box {
