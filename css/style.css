@@ -192,6 +192,7 @@ button{
     flex-wrap: wrap;
     overflow: hidden;
     list-style: none;
+    padding: 15px;
 }
 
 .product__separation {
@@ -346,11 +347,17 @@ button{
     justify-content: space-between;
     max-width: 310px;
 }
+.content-box__img {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 .content-box__title {
     margin: 0;
     margin-top: 1.7em;
     font-size: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .content-link {
@@ -359,11 +366,15 @@ button{
     margin-top: 1.5em;
     font-weight: bold;
     font-size: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .content-box__text{
     margin-top: 1em;
     font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .content-link__link-btn {
